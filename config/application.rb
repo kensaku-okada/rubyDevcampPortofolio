@@ -28,6 +28,14 @@ module DevcampPortofolio
     # the framework and any gems in your application.
 
     # Don't generate system test files.
-    config.generators.system_tests = nil
+    # config.generators.system_tests = nil
+
+    # config.generators do |g|
+    #     g.orm               :active_record
+    #     g.template_engine   :erb
+    #     g.test_framework    :test_unit, fixture:false
+    #     g.stylesheets       false
+    #     g.javascripts       false
+    # end
   end
 end
